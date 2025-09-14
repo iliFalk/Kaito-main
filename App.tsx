@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { HashRouter, Routes, Route, Navigate, useLocation, useNavigate } from 'react-router-dom';
-import Search from './pages/Search';
-import Conversation from './pages/Conversation';
-import Options from './pages/Options';
-import Models from './pages/Models';
-import Settings from './pages/Settings';
+const Search = lazy(() => import('./pages/Search'));
+const Conversation = lazy(() => import('./pages/Conversation'));
+const Options = lazy(() => import('./pages/Options'));
+const Models = lazy(() => import('./pages/Models'));
+const Settings = lazy(() => import('./pages/Settings'));
 import { AppContextProvider, useAppContext } from './context/AppContext';
 import { PANEL_ROUTES } from './constants';
 import { Icon } from './components/Icons';
@@ -40,7 +40,7 @@ const HistoryModal: React.FC<{ isOpen: boolean; onClose: () => void; }> = ({ isO
     onClose();
   };
   
-  const sortedConversations = Object.entries(conversations).sort(([idA], [idB]) => Number(idB) - Number(idA));
+  const sortedConversations: [string, any[]][] = Object.entries(conversations as Record<string, any[]>).sort(([idA], [idB]) => Number(idB) - Number(idA));
 
   return (
     <div 
@@ -219,7 +219,9 @@ const App: React.FC = () => {
     <AppContextProvider>
       <HashRouter>
         <Layout>
-          <AppRoutes />
+          <Suspense fallback={<div className="p-4">Loading...</div>}>
+            <AppRoutes />
+          </Suspense>
         </Layout>
       </HashRouter>
     </AppContextProvider>

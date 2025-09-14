@@ -5,17 +5,17 @@ import { PANEL_ROUTES } from '../constants';
 
 const guideList = [
   {
-    video: "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    video: "/vendor/ForBiggerFun.mp4",
     title: "Unified AI Search",
     description: "Get answers from multiple AI search engines at once to find the best results.",
   },
   {
-    video: "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    video: "/vendor/ForBiggerEscapes.mp4",
     title: "Context-Aware Chat",
     description: "Quote text or upload files to have richer, more accurate conversations with AI.",
   },
   {
-    video: "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    video: "/vendor/ForBiggerBlazes.mp4",
     title: "Custom Quick Actions",
     description: "Create your own one-click prompts to automate your most common tasks.",
   },

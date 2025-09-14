@@ -1,0 +1,21 @@
+{
+  "http://www.w3.org/1998/Math/MathML": "/vendor/MathML-6073ea7b",
+  "http://www.w3.org/1999/xlink": "/vendor/xlink-b43cd366",
+  "http://www.w3.org/2000/svg": "/vendor/svg-b0568748",
+  "http://www.w3.org/XML/1998/namespace": "/vendor/namespace-7859e7af",
+  "https://ai.studio/apps/drive/11z7WgqCtAQYOdZfrr1WE-jHlykRLcDQi": "/vendor/11z7WgqCtAQYOdZfrr1WE-jHlykRLcDQi-d8749cd4",
+  "https://aistudio.google.com/u/1/apps/drive/11z7WgqCtAQYOdZfrr1WE-jHlykRLcD...": "/vendor/11z7WgqCtAQYOdZfrr1WE-jHlykRLcD...-b6533c3b.",
+  "https://aistudiocdn.com/@google/genai@^1.17.0": "/vendor/genai__1.17.0",
+  "https://aistudiocdn.com/react-dom@^19.1.1/": "/vendor/react-dom__19.1.1",
+  "https://aistudiocdn.com/react-dom@^19.1.1/client": "/vendor/client-df3e2e0f",
+  "https://aistudiocdn.com/react-router-dom@^7.8.2": "/vendor/react-router-dom__7.8.2",
+  "https://aistudiocdn.com/react@^19.1.1": "/vendor/react__19.1.1",
+  "https://aistudiocdn.com/react@^19.1.1/": "/vendor/react__19.1-280cb31c.1",
+  "https://cdn.tailwindcss.com": "/vendor/cdn.tailwindcss.com",
+  "https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6": "/vendor/0aa67016-6eaf-458a-adb2-6e31a0763ed6-2c20a08a",
+  "https://react.dev/errors/": "/vendor/errors-1c736002",
+  "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4": "/vendor/ForBiggerBlazes.mp4",
+  "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4": "/vendor/ForBiggerEscapes.mp4",
+  "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4": "/vendor/ForBiggerFun.mp4",
+  "https://www.google.com/search?q=": "/vendor/search-46e17a90"
+}

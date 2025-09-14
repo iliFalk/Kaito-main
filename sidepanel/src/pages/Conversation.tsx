@@ -196,7 +196,7 @@ const Conversation: React.FC = () => {
     const handlePasteContext = () => {
         setPageContext({
             title: 'Google AI Studio',
-            url: 'https://aistudio.google.com/u/1/apps/drive/11z7WgqCtAQYOdZfrr1WE-jHlykRLcD...',
+            url: '/vendor/11z7WgqCtAQYOdZfrr1WE-jHlykRLcD...-b6533c3b.',
         });
     };
 
@@ -337,7 +337,7 @@ const Conversation: React.FC = () => {
                                 <div className="flex items-center gap-3">
                                     <div className="w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50">
                                         <div className="text-center">
-                                            <svg className="w-6 h-6 mx-auto text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                                            <svg className="w-6 h-6 mx-auto text-blue-500" xmlns="/vendor/svg-b0568748" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                                                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9Z" />
                                             </svg>
                                             <p className="text-[9px] font-bold text-blue-500">{attachedFile.name.split('.').pop()?.toUpperCase()}</p>
@@ -353,7 +353,7 @@ const Conversation: React.FC = () => {
                                 <button onClick={() => handleFileAction("Extract text from the image and translate it to Simplified Chinese")} className="flex items-center gap-1 text-sm bg-blue-100 text-blue-800 px-3 py-1.5 rounded-lg hover:bg-blue-200 font-medium">
                                     <span>Extract & Translate:</span>
                                     <span className="font-semibold">简体中文</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" /></svg>
+                                    <svg xmlns="/vendor/svg-b0568748" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4"><path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" /></svg>
                                 </button>
                                 <button onClick={() => handleFileAction("Extract all text from this image")} className="text-sm bg-blue-100 text-blue-800 px-3 py-1.5 rounded-lg hover:bg-blue-200 font-medium">
                                     Grab Text
@@ -403,7 +403,7 @@ const Conversation: React.FC = () => {
                                 <button onClick={() => setIsModelDropdownOpen(!isModelDropdownOpen)} className="flex items-center gap-1 text-sm font-semibold text-gray-700 bg-gray-100 rounded-lg px-3 py-1.5 hover:bg-gray-200" aria-label="Select AI Model">
                                     <Icon name="CpuChipIcon" className="w-4 h-4" />
                                     <span className="max-w-[120px] truncate">{models.find(m => m.id === selectedModel)?.name || selectedModel}</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5"><path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" /></svg>
+                                    <svg xmlns="/vendor/svg-b0568748" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5"><path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" /></svg>
                                 </button>
                                 {isModelDropdownOpen && (
                                     <div className="absolute bottom-full mb-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 z-10">
@@ -461,7 +461,7 @@ const Conversation: React.FC = () => {
                                     className="p-2 text-gray-500 hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-400"
                                     aria-label="Quick actions"
                                 >
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+                                    <svg xmlns="/vendor/svg-b0568748" className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
                                         <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
                                     </svg>
                                 </button>

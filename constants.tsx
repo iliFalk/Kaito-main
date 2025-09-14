@@ -11,7 +11,7 @@ export const PANEL_ROUTES = {
 };
 
 export const SEARCH_ENGINES: SearchEngine[] = [
-  { id: 'google', name: 'Google', icon: <GoogleIcon className="w-6 h-6" />, url: 'https://www.google.com/search?q=' },
+  { id: 'google', name: 'Google', icon: <GoogleIcon className="w-6 h-6" />, url: '/vendor/search-46e17a90' },
   { id: 'perplexity', name: 'Perplexity', icon: <PerplexityIcon className="w-6 h-6" />, url: 'https://www.perplexity.ai/search?q=' },
   { id: 'phind', name: 'Phind', icon: <PhindIcon className="w-6 h-6" />, url: 'https://www.phind.com/search?q=' },
 ];
