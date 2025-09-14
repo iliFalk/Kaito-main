@@ -6,7 +6,12 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: /vendor/11z7WgqCtAQYOdZfrr1WE-jHlykRLcDQi-d8749cd4
+FIRST - Move all the CDN links in local my project. 
+1. All external URLs (scripts, styles, images, fonts) - find & vendor everything automatically
+2. Download all external URLs into public/vendor and automatically replace references across the repo - remove SRI attributes and rewrite url() in CSS
+
+View your app in AI Studio: /vendor/
+11z7WgqCtAQYOdZfrr1WE-jHlykRLcDQi-d8749cd4
 
 ## Run Locally
 
